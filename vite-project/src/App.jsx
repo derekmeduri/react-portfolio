@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav';
 import About from './components/pages/About';
@@ -13,15 +10,18 @@ import { HashRouter, Route } from 'react-router-dom';
 const App = () => 
 <div>
   <HashRouter>
-  <Nav></Nav>
+  <Nav/>
     <div>
     <switch>
-    <Route exact path={'/'} Component={About} />
+      <Route exact path={'/'} Component={About} />
+      <Route exact path={'/portfolio'} Component={Portfolio}/>
+      <Route exact path={'/resume'} Component={Resume}/>
       <Route exact path={'/contact'} Component={Contact}/>
-      
-    </switch>
-    </div>
-  </HashRouter>
+     </switch>
+     </div>
+     <Footer/>
+     </HashRouter>
+     
 </div>
 
 export default App
