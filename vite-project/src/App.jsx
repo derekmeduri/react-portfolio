@@ -6,11 +6,12 @@ import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Footer from './components/Footer';
+import background from './assets/pexels-cottonbro-studio-9694694.jpg'
 
 
 
 const App = () => 
-<div>
+<div style={{backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat'}}>
   <HashRouter>
   <Nav/>
     <div>

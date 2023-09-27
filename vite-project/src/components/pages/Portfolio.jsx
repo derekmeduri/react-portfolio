@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import projects from '../pages/projects.json';
+import projects from '../projects.json';
 
 const styles = {
     jumbotron: {
