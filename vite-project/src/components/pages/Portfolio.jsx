@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
 import projects from '../pages/projects.json';
 
+const styles = {
+    jumbotron: {
+        backgroundColor: "white",
+        marginTop: 100,
+        marginBottom: 100
+    }
+}
+
 class Portfolio extends Component {
     state = {
         projects
@@ -8,8 +16,9 @@ class Portfolio extends Component {
 
     render () {
         return (
-            <div className='container'>
-                <h1>Portfolio</h1><br></br>
+            <div className='container-sm container-md container-lg container-xl'>
+                <div className='jumbtron shadow' style={styles.jumbotron}>
+                <h1 className='display-4 text-center'>Portfolio</h1><br></br>
                 <div className='row'>
                     <div className='col'>
                         <div className='row'>
@@ -23,6 +32,7 @@ class Portfolio extends Component {
                             ))}
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         )
