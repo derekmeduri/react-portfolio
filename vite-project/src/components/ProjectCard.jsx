@@ -18,8 +18,8 @@ function ProjectCard(props) {
                 </img>
                 <div className='card-body'>
                     <h5 className='card-title'>{props.title}</h5>
-                    <a href={props.deployed} target='_blank' >View Project</a>
-                    <a href={props.repo} target='_blank'>GitHub Repo</a>
+                    <a href={props.deployed} target='_blank' className='btn btn-outline-info btn-sm'>View Project</a>
+                    <a href={props.repo} target='_blank' className='btn btn-outline-info btn-sm'>GitHub Repo</a>
                 </div>
             </div>
         </div>
