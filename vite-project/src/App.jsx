@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
@@ -15,12 +15,12 @@ const App = () =>
   <HashRouter>
   <Nav/>
     <div>
-    <Switch>
-      <Route exact path={'/'} Component={About} />
-      <Route exact path={'/portfolio'} Component={Portfolio}/>
-      <Route exact path={'/resume'} Component={Resume}/>
-      <Route exact path={'/contact'} Component={Contact}/>
-     </Switch>
+      <Routes>
+        <Route exact path={'/'} Component={About} />
+        <Route exact path={'/portfolio'} Component={Portfolio}/>
+        <Route exact path={'/resume'} Component={Resume}/>
+        <Route exact path={'/contact'} Component={Contact}/>
+     </Routes>
      </div>
      <Footer/>
      </HashRouter>
