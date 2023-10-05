@@ -36,6 +36,8 @@
 
     ## Deployed
 
+    Deployed application: [portfolio](https://derekmeduri.github.io/react-portfolio/)
+
     ## Screenshots
 
     ![About](src/assets/About.png)
