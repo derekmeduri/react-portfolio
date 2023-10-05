@@ -24,11 +24,11 @@
 
     ## Description
 
-    This portfolio was created to showcase what I have learned in The Ohio State University's Full Stack Web Development Certificate program.
+    This portfolio was created to showcase what I have learned in The Ohio State University's Full Stack Web Development Certificate program. It includes my About Me, Portfolio, Professional Resume, and a Contact page.
 
     ## Installation
 
-    npm i, npm start
+    npm i, npm run build, npm run dev.
 
     ## Usage
 
@@ -37,6 +37,11 @@
     ## Deployed
 
     ## Screenshots
+
+    ![About](src/assets/About.png)
+    ![Portfolio](src/assets/Portfolio.png)
+    ![Resume](src/assets/resumescreen.png)
+    ![Contact](src/assets/contact.png)
 
     ## Questions
 
