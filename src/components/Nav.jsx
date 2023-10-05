@@ -9,6 +9,9 @@ const styles = {
     },
     links: {
         marginRight: 10
+    },
+    name: {
+        marginLeft: 10
     }
 }
 
@@ -20,7 +23,7 @@ function Nav(){
 
     return (
         <nav className='navbar fixed-top navbar-expand-lg navbar-light' style={styles.nav}>
-            <a className='navbar-brand'></a>
+            <a className='navbar-brand'><h1 style={styles.name}>Derek Meduri</h1></a>
 
         <button className='custom-toggler navbar-toggler'
         type='button' data-bs-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='#navbarSupportedContent' aria-expanded={!isNavCollapsed ? true : false} aria-label='Toggle Navigation' onClick={handleNavCollapse}>
