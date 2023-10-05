@@ -28,7 +28,7 @@ class Portfolio extends Component {
                                 id={project.id}
                                 key = {project.id}
                                 title={project.title}
-                                image={process.env.PUBLIC_URL + project.image}
+                                image={project.image}
                                 repo={project.repo}
                                 deployed={project.deployed} />
                             ))}

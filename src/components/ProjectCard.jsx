@@ -13,13 +13,13 @@ const styles = {
 function ProjectCard(props) {
     return (
         <div className='col-sm-6'>
-            <div className='card tex-center' style={styles.card}>
-                <img src={props.image} alt={props.title}>
+            <div className='card text-center' style={styles.card}>
+                <img src={props.image} className="card-img-top" alt={props.title}>
                 </img>
                 <div className='card-body'>
                     <h5 className='card-title'>{props.title}</h5>
-                    <a href={props.deployed} target='_blank' className='btn btn-outline-info btn-sm'>View Project</a>
-                    <a href={props.repo} target='_blank' className='btn btn-outline-info btn-sm'>GitHub Repo</a>
+                    <a href={props.deployed} rel='noreferrer' target='_blank' className='btn btn-outline-info btn-sm'>View Project</a>
+                    <a href={props.repo} rel='noreferrer' target='_blank' className='btn btn-outline-info btn-sm'>GitHub Repo</a>
                 </div>
             </div>
         </div>
