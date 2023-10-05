@@ -23,7 +23,7 @@ const About = () => (
         <br></br>
         <div className='row'>
             <div className='col'>
-                <img className='img-fluid float-sm-left float-md-left float-lg-left float-xl-left'
+                <img className='img-fluid float-sm-right float-md-right float-lg-right float-xl-right'
                 style={styles.me}
                 src={me}
                 alt='Derek Meduri'></img>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import projects from '../projects.json';
+import ProjectCard from '../ProjectCard';
 
 const styles = {
     jumbotron: {
@@ -25,8 +26,9 @@ class Portfolio extends Component {
                             {this.state.projects.map(project => (
                                 <ProjectCard
                                 id={project.id}
+                                key = {project.id}
                                 title={project.title}
-                                image={''}
+                                image={process.env.PUBLIC_URL + project.image}
                                 repo={project.repo}
                                 deployed={project.deployed} />
                             ))}

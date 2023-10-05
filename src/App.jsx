@@ -13,18 +13,18 @@ import background from './assets/pexels-cottonbro-studio-9694694.jpg'
 const App = () => 
 <div style={{backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat'}}>
   <HashRouter>
-  <Nav/>
+   <Nav/>
     <div>
       <Routes>
         <Route exact path={'/'} Component={About} />
         <Route exact path={'/portfolio'} Component={Portfolio}/>
         <Route exact path={'/resume'} Component={Resume}/>
         <Route exact path={'/contact'} Component={Contact}/>
-     </Routes>
-     </div>
-     <Footer/>
+       </Routes>
+        </div>
+      <Footer/>
      </HashRouter>
      
-</div>
+</div>;
 
 export default App;
