@@ -17,7 +17,7 @@ const Resume = () => (
         <h1 className='display-4 text-center'>Resume</h1>
         <br></br>
         <p>
-            <img src={resume} id='resume' alt='Derek Meduri Wrok Experience'>
+            <img  src={resume} id='resume' alt='Derek Meduri Work Experience'>
             </img>
             <img src={resume2} id='resume' alt='Derek Meduri Sample Applications'>
             </img>
