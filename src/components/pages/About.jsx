@@ -29,8 +29,8 @@ const About = () => (
                 alt='Derek Meduri'></img>
                 <p>I'm Derek!</p>
                 <p>I am a freelance product developer. Currently enrolled in The Ohio State University Full Stack Web Development Coding Bootcamp. My degree in Fashion Merchandising lead me to New York City, but growing up in Ohio brought me back to Columbus.</p>
-                <p>My professional career started in retail, selling shoes, in 2007. Upon graduation from Kent State University in 2015 I began working in corporate fashion as a product developver. I worked closely with fashion designers to bring their visions to life. Now I have shifted my focus to software development, where I have been learning to code for the past year or so. I look forward to bringing many more visions to life with the knowledge I have obtained.</p>
-                <p>I am a passionate and dedicated teamworker. I am a creative with strong leadership, communication and organizational skills. If you would like to see some of my recent applications, please checkout out my portfolio and resume!</p>
+                <p>My professional career started in retail, selling shoes, in 2007. Upon graduation from Kent State University in 2015 I began working in corporate fashion as a Product Developer. I have worked closely with fashion designers to bring their visions to life. Now, I have shifted my focus to software development where I have been learning to code for the past year or so. I look forward to bringing many more visions to life with the knowledge and skills I have obtained.</p>
+                <p>I am a creative, passionate and dedicated Web Developer with strong leadership, communication and organizational skills. If you would like to see some of my recent applications checkout out my portfolio and resume tabs in the navigation.</p>
                 <p>Thanks for stopping by!</p>
             </div>
         </div>
