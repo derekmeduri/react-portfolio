@@ -2,7 +2,7 @@
     {
         "id": 0,
         "title": "Squabble Sesh",
-        "image": "/assets/SquabbleSesh.jpg",
+        "image": "/assets/SquabbleSesh.png",
         "repo": "https://github.com/derekmeduri/Squabble-Sesh",
         "deployed": "https://squabble-sesh-775df5202585.herokuapp.com/"
     },
