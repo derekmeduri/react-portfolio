@@ -54,6 +54,13 @@
         "image": "/assets/passwordgenerator.png",
         "repo": "https://github.com/derekmeduri/password-generator",
         "deployed": "https://derekmeduri.github.io/password-generator/"
+    },
+    {
+        "id": 8,
+        "title": "Code Refactoring",
+        "image": "/assets/Horiseon.png",
+        "repo": "https://github.com/derekmeduri/semantic-html",
+        "deployed": "https://derekmeduri.github.io/semantic-html/"
     }
     
 ]
