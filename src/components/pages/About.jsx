@@ -6,7 +6,7 @@ const styles = {
         maxWidth: "50%",
         maxHeight: "auto",
         minWidth: 325,
-        paddingRight: 40,
+        paddingLeft: 25,
         paddingBottom:15
     },
     jumbotron: {
