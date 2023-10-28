@@ -8,55 +8,62 @@
     },
     {
         "id": 1,
+        "title": "MERN Search Engine",
+        "image": "/assets/MERNsearchengine.png",
+        "repo": "https://github.com/derekmeduri/MERN-Search-Engine",
+        "deployed": "https://derekmeduribooksearchengine-34a42466aa72.herokuapp.com/"
+    },
+    {
+        "id": 2,
         "title": "PWA Text Editor",
         "image": "/assets/JATE.png",
         "repo": "https://github.com/derekmeduri/PWA-Text-Editor",
         "deployed": "https://dmeduri-text-editor-15ceace36752.herokuapp.com/"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Note Taker",
         "image": "/assets/notetaker.png",
         "repo": "https://github.com/derekmeduri/note-taker",
         "deployed": "https://meduri-note-taker-86eae7654fa3.herokuapp.com/"
     }, 
     {
-        "id": 3,
+        "id": 4,
         "title": "Nebula's Fables",
         "image": "/assets/nebulasfables.png",
         "repo": "https://github.com/derekmeduri/nebulas-fables",
         "deployed": "https://nebulasfables-2b16dcff30ab.herokuapp.com/"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Weather Forecast",
         "image": "/assets/weatherforecaster.png",
         "repo": "https://github.com/derekmeduri/weather-forecast",
         "deployed": "https://derekmeduri.github.io/weather-forecast/"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Workday Planner",
         "image": "/assets/workdayplanner.png",
         "repo": "https://github.com/derekmeduri/workday-planner",
         "deployed": "https://derekmeduri.github.io/workday-planner/"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Code Quiz",
         "image": "/assets/codequiz.png",
         "repo": "https://github.com/derekmeduri/code-quiz",
         "deployed": "https://derekmeduri.github.io/code-quiz/index.html"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Password Generator",
         "image": "/assets/passwordgenerator.png",
         "repo": "https://github.com/derekmeduri/password-generator",
         "deployed": "https://derekmeduri.github.io/password-generator/"
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Code Refactoring",
         "image": "/assets/Horiseon.png",
         "repo": "https://github.com/derekmeduri/semantic-html",
