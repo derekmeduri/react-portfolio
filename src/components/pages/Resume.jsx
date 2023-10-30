@@ -18,7 +18,7 @@ const Resume = () => (
         <div className='jumbotron shadow' style={styles.jumbotron}>
         <h1 className='display-4 text-center'>Resume</h1>
         <br></br>
-        <p>
+        <p className='center'>
             <img  src={resume} id='resume' alt='Derek Meduri Work Experience'>
             </img>
             <img src={resume2} id='resume' alt='Derek Meduri Sample Applications'>
