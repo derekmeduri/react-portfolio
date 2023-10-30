@@ -6,7 +6,9 @@ const styles = {
     jumbotron: {
         backgroundColor: 'white',
         marginTop: 150,
-        marginBottom: 100
+        marginBottom: 100,
+        marginLeft: 50,
+        marginRight: 50
     }
 };
 
