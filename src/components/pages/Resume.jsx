@@ -27,7 +27,7 @@ const Resume = () => (
         <br></br>
         <p className='text-center'>
            
-            <a href='https://github.com/derekmeduri/react-portfolio/blob/main/vite-project/src/assets/DerekMeduriResume.pdf' target='_blank'>
+            <a href='./src/assets/DerekMeduriResume.pdf' target='_blank' download='DerekMeduriResume.pdf'>
                 Download a PDF of my Resume
             </a>
         </p>
