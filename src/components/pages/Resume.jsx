@@ -27,7 +27,7 @@ const Resume = () => (
         <br></br>
         <p className='text-center'>
            
-            <a href='./src/assets/DerekMeduriResume.pdf' target='_blank' download='DerekMeduriResume.pdf'>
+            <a href='./public/assets/DerekMeduriResume.pdf' target='_blank' download='DerekMeduriResume.pdf'>
                 Download a PDF of my Resume
             </a>
         </p>
