@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../../assets/dmeduriresume1.png';
 import resume2 from '../../assets/dmeduriresume2.png';
+import res from '../../assets/DerekMeduriResume.pdf';
 
 const styles = {
     jumbotron: {
@@ -27,9 +28,9 @@ const Resume = () => (
         <br></br>
         <p className='text-center'>
            
-            <Link to='./public/assets/DerekMeduriResume.pdf' target='_blank' download='/DerekMeduriResume.pdf'>
+            <a href={res} target='_blank' download='DerekMeduriResume'>
                 Download a PDF of my Resume
-            </Link>
+            </a>
         </p>
         </div>
     </div>
