@@ -29,7 +29,7 @@ const Resume = () => (
            
             <Link to='./public/assets/DerekMeduriResume.pdf' target='_blank' download='/DerekMeduriResume.pdf'>
                 Download a PDF of my Resume
-            </a>
+            </Link>
         </p>
         </div>
     </div>
