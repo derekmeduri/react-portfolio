@@ -1,6 +1,6 @@
 import React from 'react';
-import resume from '../../assets/dmeduriresume1.png';
-import resume2 from '../../assets/dmeduriresume2.png';
+import resume from '../../assets/dmeduriresume1.jpg';
+import resume2 from '../../assets/dmeduriresume2.jpg';
 import res from '../../../public/assets/DerekMeduriResume.pdf';
 
 const styles = {
