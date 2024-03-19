@@ -12,8 +12,8 @@ const styles = {
         marginRight: 50
     },
     img: {
-        width: 200,
-        height: 200,
+        width: 400,
+        height: 400,
 
     }
 };
