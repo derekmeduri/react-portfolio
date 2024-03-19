@@ -10,6 +10,11 @@ const styles = {
         marginBottom: 100,
         marginLeft: 50,
         marginRight: 50
+    },
+    img: {
+        width: 200,
+        height: 200,
+
     }
 };
 
@@ -20,9 +25,9 @@ const Resume = () => (
         <h1 className='display-4 text-center'>Resume</h1>
         <br></br>
         <p className='center'>
-            <img  src={resume} id='resume' alt='Derek Meduri Work Experience'>
+            <img  src={resume} id='resume' alt='Derek Meduri Work Experience' style={styles.img}>
             </img>
-            <img src={resume2} id='resume' alt='Derek Meduri Sample Applications'>
+            <img src={resume2} id='resume' alt='Derek Meduri Sample Applications' style={styles.img}>
             </img>
         </p>
         <br></br>
