@@ -6,7 +6,7 @@ const styles = {
     },
 
     button: {
-        marginRight: 5
+        margin: 5
     }
 }
 
