@@ -63,5 +63,19 @@
         "repo": "https://github.com/derekmeduri/MERN-Search-Engine",
         "deployed": "https://derekmeduribooksearchengine-34a42466aa72.herokuapp.com/"
     },
+    {
+        "id": 9,
+        "title": "Nebula's Fables",
+        "image": "/assets/nebulasfables.png",
+        "repo": "https://github.com/derekmeduri/nebulas-fables",
+        "deployed": "https://nebulas-fables-7d78f9748366.herokuapp.com/"
+    },
+    {
+        "id": 10,
+        "title": "Squabble Sesh",
+        "image": "/assets/squabblesesh.png",
+        "repo": "https://github.com/derekmeduri/Squabble-Sesh",
+        "deployed": "https://squabble-sesh-775df5202585.herokuapp.com/"
+    }
     
 ]
