@@ -2,10 +2,10 @@
    
     {
         "id": 0,
-        "title": "Book Search Engine",
-        "image": "/assets/MERNsearchengine.png",
-        "repo": "https://github.com/derekmeduri/MERN-Search-Engine",
-        "deployed": "https://derekmeduribooksearchengine-34a42466aa72.herokuapp.com/"
+        "title": "Responsive CSS",
+        "image": "/assets/dimsum.png",
+        "repo": "https://github.com/derekmeduri/dimsum",
+        "deployed": "https://derekmeduri.github.io/dimsum/"
     },
     {
         "id": 1,
@@ -55,6 +55,13 @@
         "image": "/assets/Horiseon.png",
         "repo": "https://github.com/derekmeduri/semantic-html",
         "deployed": "https://derekmeduri.github.io/semantic-html/"
-    }
+    },
+    {
+        "id": 8,
+        "title": "Book Search Engine",
+        "image": "/assets/MERNsearchengine.png",
+        "repo": "https://github.com/derekmeduri/MERN-Search-Engine",
+        "deployed": "https://derekmeduribooksearchengine-34a42466aa72.herokuapp.com/"
+    },
     
 ]
