@@ -23,7 +23,7 @@ const styles = {
 const Contact = () => (
     <div className='container-sm container-md container-lg container-xl'>
         <div className='jumbotron shadow' style={styles.jumbotron}>
-        <h1 className='display-4 text-center'>Let's Work Toegether!</h1>
+        <h1 className='display-4 text-center'>Let's Work Together!</h1>
         <br></br>
         <p className='text-center'>Want to connect? Reach me below:</p>
 
